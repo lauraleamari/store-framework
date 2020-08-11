@@ -4,12 +4,12 @@
     "blocks": [
       "vtex.menu@2.x:submenu#major"
     ],
-      "props": {
-        "type": "custom",
-        "highlight": true,
-        "itemProps": {
-          "text": "Major Aplliances"
-        }
+    "props": {
+      "type": "custom",
+      "highlight": true,
+      "itemProps": {
+        "text": "Major Aplliances"
+      }
     }
   },
 
@@ -17,7 +17,7 @@
     "blocks": [
       "vtex.menu@2.x:submenu#small"
     ],
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -32,7 +32,7 @@
     "blocks": [
       "vtex.menu@2.x:submenu#electronics"
     ],
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -43,7 +43,7 @@
     }
   },
   "menu-item#refrigerators": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -54,7 +54,7 @@
     }
   },
   "menu-item#ovens": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -65,7 +65,7 @@
     }
   },
   "menu-item#washers": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -76,7 +76,7 @@
     }
   },
   "menu-item#mixers": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -87,7 +87,7 @@
     }
   },
   "menu-item#toasters": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -98,7 +98,7 @@
     }
   },
   "menu-item#coffee": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -109,7 +109,7 @@
     }
   },
   "menu-item#tvs": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -120,7 +120,7 @@
     }
   },
   "menu-item#laptops": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
@@ -131,7 +131,7 @@
     }
   },
   "menu-item#cameras": {
-      "props":
+    "props":
     {
       "type": "category",
       "highlight": true,
