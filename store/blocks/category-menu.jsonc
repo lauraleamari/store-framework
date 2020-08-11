@@ -1,0 +1,43 @@
+{
+    "vtex.menu@2.x:menu#category-menu": {
+        "props": {
+            "experimentalOptimizeRendering": true
+        },
+        "children": [
+            "menu-item#category-apparel"
+        ]
+    },
+    "menu-item#category-apparel": {
+        "props": {
+            "itemProps": {
+                "text": "Apparel & Accessories"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category-apparel"
+        ]
+    },
+    "vtex.menu@2.x:submenu#category-apparel": {
+        "props": {
+            "width": "auto"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-apparel"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-apparel": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-apparel-clothing"
+        ]
+    },
+    "menu-item#category-apparel-clothing": {
+        "props": {
+            "itemProps": {
+                "text": "Clothing"
+            }
+        }
+    }
+}
