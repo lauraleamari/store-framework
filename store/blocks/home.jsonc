@@ -5,8 +5,7 @@
       "shelf",
       "slider-layout#home",
       "responsive-layout.desktop#desktop",
-      "responsive-layout.mobile#mobile",
-      "search-result-layout.customQuery#home"
+      "responsive-layout.mobile#mobile"
     ]
   },
   "rich-text": {
