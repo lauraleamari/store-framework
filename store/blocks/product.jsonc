@@ -22,34 +22,17 @@
     "children": [
       "product-name",
       "product-price",
-      "buy-button#product"
+      "buy-button"
     ],
     "props": {
       "verticalAlign": "middle",
-      "preventVerticalStretch": false
-    }
-  },
-  "product-images": {
-    "props": {
-      "displayThumbnailsArrows": true
-    }
-  },
-  "product-name": {
-    "props": {
-      "showSKU": true,
-      "showBrandName": true
+      "preventVerticalStretch": true
     }
   },
   "product-price": {
     "props": {
       "showSavings": true,
-      "showListPrice": false
-    }
-  },
-  "buy-button#product": {
-    "props": {
-      "isOneClickBuy": true,
-      "showTooltipOnSkuNotSelected": false
+      "showListPrice": true
     }
   }
 }
